@@ -3,7 +3,7 @@ services:
   app:
     restart: on-failure
     container_name: calculator
-    image: 'calculator:v1'
+    image: 'calculator-case-study:1.0'
     build:
       context: .
       dockerfile: Dockerfile
