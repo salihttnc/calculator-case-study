@@ -6,12 +6,8 @@ Basic calculator project with given records. I used Spring Boot, PostgresSQL and
 
 First, you need to clone the project to your local machine
 
-* `git clone https://github.com/DevelopmentHiring/MuhammedSalihTutuncu.git`
-* `cd calculator`
-  
-**Architecture**
-* The reasons for choosing MongoDB is that you can add a new shipment type without creating new tables by adding fields as whatever you want on over the base entity, a strong architecture for the  Big Data in Cluster mode and a low transactional architecture when the data is modeled properly.
-* Factory pattern was used for easy integration of the new future model. After adding ShipType to the new upcoming model, the ValidationFactory interface will be implemented and used in the service of this type.
+* `git clone https://github.com/salihttnc/calculator-case-study.git`
+* `cd calculator-case-study`
 
 **Building**
 A step by step series of building that project
