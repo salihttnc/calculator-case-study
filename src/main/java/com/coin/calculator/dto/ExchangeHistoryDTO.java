@@ -9,6 +9,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 public class ExchangeHistoryDTO {
+
     private String spendType;
     private String receiveType;
     private double amount;
